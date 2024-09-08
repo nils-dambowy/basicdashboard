@@ -1,0 +1,184 @@
+
+.dashboards {
+  display: flex;
+  flex-direction: column;
+  float: left ;
+  width:33.5vw;
+  height: 100vh;
+  /* border: 3px solid red; 
+  background-color:rgb(194, 194, 194);*/
+  background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+}
+
+#dash-button-container {
+  position: relative;
+  margin: 2vh;
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: 30.5vw;
+  height:50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255); 
+
+}
+
+#dash-button-container-fs {
+  position: relative;
+  margin: 50px;
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: 95vw;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  z-index: 100000;
+}
+
+#open-btn{
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 94, 255, 0.5);
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.815);
+  background-color:deepskyblue;
+  /* Vetically aligns the plus, idk why it doesn't work */
+  padding-bottom: 10px;
+}
+
+#open-btn:hover {
+  background-color: greenyellow;
+  color: rgba(118, 118, 118, 0.815);
+  box-shadow: 0 0 20px rgba(36, 103, 2, 0.5);
+}
+
+#fs-btn {
+  border: none;
+  position: absolute;
+  text-align: center;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.815);
+  right: 6%;
+  top: 1%;
+  background-color: rgb(38, 255, 0);
+  z-index: 100000;
+}
+
+#close-btn {
+  border: none;
+  position: absolute;
+  text-align: center;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.815);
+  right: 1%;
+  top: 1%;
+  background-color: red;
+  z-index: 100000;
+}
+ 
+#close-btn:hover {
+  border: none;
+  position: absolute;
+  text-align: center;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.815);
+  right: 1%;
+  top: 1%;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+  background-color: red;
+  z-index: 100000;
+}
+
+.currentMetrics {
+  padding-top: 2vh;
+  position: absolute;
+  /* border: 3px solid blue; 
+  background-color:rgb(194, 194, 194);*/
+  background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 29vh;
+  width:66vw;
+  right: 0%;
+  bottom: 0%;
+} 
+
+#metric-container {
+  position: relative;
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width:20vw;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+#metric-text {
+  color:black;
+  text-align: center;
+}
+
+.idk {
+  position: absolute;
+  /* border: 3px solid yellow; 
+  background-color: rgb(194, 194, 194);*/
+  background-image: linear-gradient( 135deg, #FFD3A5 10%, #FD6585 100%);
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  width:34vw;
+  right: 32%;
+  top: 0%;
+  justify-content: space-evenly;
+} 
+
+.overview {
+  padding: 1vh;
+  position: absolute; 
+  /*background-color: rgb(194, 194, 194);*/
+  background-image: linear-gradient( 135deg, #EE9AE5 10%, #5961F9 100%);
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  width:31.5vw;
+  right: 0%;
+  justify-content: space-evenly;
+  top: 0%;
+} 
+
+.chart {  
+  position: relative;
+  width: 25vw;
+  height:35svh;
+}
+
+#radial-container {
+  position: relative;
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width:30vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
